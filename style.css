@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1224px;
+  margin: auto;
+}
+
+header {
+  background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+
+a {
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+nav, a, ul, div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  padding-top: 1rem;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+nav a {
+  font-size: 25px;
+  font-weight: 900;
+  margin: auto 2rem;
+}
+
+nav a img {
+  width: 30px;
+  height: 30px;
+}
+
+nav ul li a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav ul li+li a, nav ul li+li+li a {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav button {
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+nav button img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+header div {
+  align-items: center;
+}
+
+header div div img {
+  width: 470px;
+  height: 430px;
+}
+
+header div ul {
+  flex-direction: column;
+}
+
+header div ul li p {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 39px;
+}
+
+header div ul li+li p {
+  font-size: 16px;
+  font-weight: 40;
+  line-height: 19px;
+  margin: 3rem 0;
+}
+
+header div ul li button {
+  width: 120px;
+  height: 40px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+main {
+  margin: 5rem 0;
+}
+
+section ul li img {
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+
+section ul li p {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+section ul {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer {
+padding-top: 10rem;
+background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+
+footer ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 2rem 0;
+}
+
+footer ul + ul {
+  display: block;
+}
+
+footer ul + ul li {
+  margin: 2rem 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24.38px;
+}
+
+footer ul + ul + ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
